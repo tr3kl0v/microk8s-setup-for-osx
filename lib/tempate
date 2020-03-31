@@ -1,0 +1,6 @@
+#!/bin/bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"" readonly="readonly
+brew install ubuntu/microk8s/microk8s
+microk8s install
+microk8s status --wait-ready
+microk8s enable dns dashboard registry
