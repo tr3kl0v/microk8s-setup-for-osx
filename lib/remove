@@ -1,0 +1,4 @@
+#!/bin/bash
+microk8s disable dns dashboard registry
+brew remove ubuntu/microk8s/microk8s
+brew remove cask

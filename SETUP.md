@@ -6,5 +6,5 @@
 	- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
  
 2. To Install & configure your microk8s cluser, go to from your home folder (ex. cd ~), then run
-	- `curl -s https://raw.githubusercontent.com/tr3kl0v/microk8s-setup-for-osx/master/lib/tempate | bash`
+	- `curl -s https://raw.githubusercontent.com/tr3kl0v/microk8s-setup-for-osx/master/lib/install | bash`
 
